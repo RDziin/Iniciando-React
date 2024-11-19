@@ -9,39 +9,52 @@
   gap: 20px;
 }
 
-#box{
+#box {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 input {
+  width: 300px;
   border: 1px solid black;
-  border-radius: 8px;
-  padding: 10px;
+  color: #FFFF;
+  padding: 2px 5px;
   font-size: 16px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
 }
 
 button {
-  marginleft: 10px;
   padding: 10px;
-  fontsize: 12px;
+  font-size: 12px;
   cursor: pointer;
   border: 1px solid black;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  background: none;
+  color: #FFFF;
 }
 
-
-button:hover{
-  background-color: aqua;
+button:hover {
+  background-color: rgb(15, 77, 77);
 }
 
-p{
-  color: black;
+p {
+  color: #FFFF;
   font-size: 30px;
 }
 
-#name{
+h1{
+  font-size: 4em;
+}
+
+#name {
   color: aquamarine;
 }
